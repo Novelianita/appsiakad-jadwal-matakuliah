@@ -14,8 +14,9 @@ public class KoneksiDB {
     public ResultSet res;
     public String query;
     public boolean isUpdate;
-    public DefaultTableModel tbluser, tblthangkatan, tbljurusan, tblprodi, 
-            tblmahasiswa;
+    public DefaultTableModel tbluser, tblthangkatan, tbljurusan, tblprodi, tblmahasiswa,
+                     tblkelas, tblgedung, tblruang, tblthajaran,
+                     tbljadwalmk, tblmatakuliah, tblsetjam, tbldosen, tbltbmstkelompokmk;
     public List<Object> list = new ArrayList<>();
     public SimpleDateFormat tglview = new SimpleDateFormat("dd-MM-yyyy");
     public SimpleDateFormat tglinput = new SimpleDateFormat("yyyy-mm-dd");
